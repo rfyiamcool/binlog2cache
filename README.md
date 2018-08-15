@@ -2,6 +2,22 @@
 
 watch mysql binlog event, update redis cache
 
+## use
+
+1. dep
+
+```
+pip install -r requirements.txt
+```
+
+2. modify config.py
+
+3. python binlog2cache.py
+
+4. redis-cli monitor
+
+
+
 ## info
 
 mysql data

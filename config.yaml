@@ -1,0 +1,15 @@
+MYSQL_SETTINGS:
+    host: 127.0.0.1
+    port: 3306
+    user: root
+    passwd: ""
+
+REDIS_SETTINGS:
+    host: 127.0.0.1
+    port: 6379
+    db: 0
+    password: b840fc02d52
+
+SELF:
+    server_id: 11
+    log_pos_prefix: log_pos_
