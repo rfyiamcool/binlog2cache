@@ -1,0 +1,2 @@
+mysql-replication==0.18
+redis==2.10.6
