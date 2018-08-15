@@ -1,6 +1,10 @@
 # binlog2cache
 
-watch mysql binlog event, update redis cache
+watch mysql binlog event, update redis cache.
+
+> why use binlog2cache?
+
+When cache in redis and data in mysql are inconsistent, the case cause dirty data. so we can update cache active by binlog2cache.
 
 ## use
 
@@ -16,9 +20,7 @@ pip install -r requirements.txt
 
 4. redis-cli monitor
 
-
-
-## info
+## desc
 
 mysql data
 
