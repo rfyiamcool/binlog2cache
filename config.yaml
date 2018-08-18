@@ -13,3 +13,10 @@ REDIS_SETTINGS:
 SELF:
     server_id: 11
     log_pos_prefix: log_pos_
+    filter:
+        only_schemas:
+          - rui
+          - test
+        only_tables:
+        ignored_tables:
+        ignored_schemas:
